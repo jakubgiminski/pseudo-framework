@@ -18,5 +18,7 @@
             "Tests\\": "tests"
         }
     },
-    "require": {}
+    "require": {
+        "league/container": "^2.4"
+    }
 }

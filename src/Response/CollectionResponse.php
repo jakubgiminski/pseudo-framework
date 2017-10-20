@@ -5,17 +5,15 @@ namespace PseudoFramework\Response;
 
 use PseudoFramework\Arrayable;
 
-class CollectionResponse
+class CollectionResponse extends Response
 {
-    private $collection;
-
     public function __construct(Arrayable $collection)
     {
-        $this->collection = $collection;
+        parent::__construct($collection);
     }
 
     public function getCollection(): Arrayable
     {
-        return $this->collection;
+        return $this->getContent();
     }
 }

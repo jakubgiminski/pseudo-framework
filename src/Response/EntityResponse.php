@@ -5,17 +5,15 @@ namespace PseudoFramework\Response;
 
 use PseudoFramework\Entity;
 
-class EntityResponse
+class EntityResponse extends Response
 {
-    private $entity;
-
     public function __construct(Entity $entity)
     {
-        $this->entity = $entity;
+        parent::__construct($entity);
     }
 
     public function getEntity(): Entity
     {
-        return $this->entity;
+        return $this->getContent();
     }
 }
