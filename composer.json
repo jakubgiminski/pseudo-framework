@@ -1,0 +1,22 @@
+{
+    "name": "jakubgiminski/pseudo-framework",
+    "description": "Pseudo api framework",
+    "type": "framework, library, project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.4",
+        "ramsey/uuid": "^3.7"
+    },
+    "authors": [
+        {
+            "name": "Jakub Giminski",
+            "email": "jakubgiminski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PseudoFramework\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {}
+}
