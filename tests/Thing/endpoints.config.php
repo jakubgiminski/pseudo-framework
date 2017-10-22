@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PseudoFramework\Http\Endpoint;
-use Tests\Thing\ThingsController;
+use PseudoFrameworkTest\Thing\ThingsController;
 
 $getThingsEndpoint = Endpoint::get(
     '/things',

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Tests\Thing;
+namespace PseudoFrameworkTest\Thing;
 
 use PseudoFramework\Arrayable;
 
