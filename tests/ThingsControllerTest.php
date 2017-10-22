@@ -4,8 +4,8 @@ declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 use PseudoFramework\Arrayable;
 use PseudoFramework\Response\CollectionResponse;
-use Tests\Thing\ThingsController;
-use Tests\Thing\ThingsRepository;
+use PseudoFrameworkTest\Thing\ThingsController;
+use PseudoFrameworkTest\Thing\ThingsRepository;
 
 class ThingsControllerTest extends TestCase
 {

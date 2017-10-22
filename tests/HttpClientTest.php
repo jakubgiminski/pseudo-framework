@@ -5,9 +5,9 @@ use PHPUnit\Framework\TestCase;
 use PseudoFramework\Http\Endpoint;
 use PseudoFramework\Http\HttpClient;
 use PseudoFramework\Response\CollectionResponse;
-use Tests\Thing\Thing;
-use Tests\Thing\ThingsController;
-use Tests\Thing\ThingsRepository;
+use PseudoFrameworkTest\Thing\Thing;
+use PseudoFrameworkTest\Thing\ThingsController;
+use PseudoFrameworkTest\Thing\ThingsRepository;
 
 class HttpClientTest extends TestCase
 {

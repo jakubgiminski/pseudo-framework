@@ -2,8 +2,8 @@
 declare(strict_types=1);
 
 use League\Container\Container;
-use Tests\Thing\ThingsController;
-use Tests\Thing\ThingsRepository;
+use PseudoFrameworkTest\Thing\ThingsController;
+use PseudoFrameworkTest\Thing\ThingsRepository;
 
 $container = new Container();
 

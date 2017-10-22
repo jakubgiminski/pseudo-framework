@@ -16,7 +16,7 @@
     "autoload": {
         "psr-4": {
             "PseudoFramework\\": "src",
-            "Tests\\": "tests"
+            "PseudoFrameworkTest\\": "tests"
         }
     },
     "require": {
