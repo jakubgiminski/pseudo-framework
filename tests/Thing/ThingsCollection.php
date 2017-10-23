@@ -9,9 +9,9 @@ class ThingsCollection implements Arrayable
 {
     private $things;
 
-    public function __construct(array $things = null)
+    public function __construct(array $things = [])
     {
-        $this->things = $things ?? [];
+        $this->things = $things;
     }
 
     public function toArray(): array

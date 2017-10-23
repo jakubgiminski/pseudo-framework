@@ -7,9 +7,9 @@ class Request
 {
     private $parameters;
 
-    public function __construct(array $parameters = null)
+    public function __construct(array $parameters = [])
     {
-        $this->parameters = $parameters ?? [];
+        $this->parameters = $parameters;
     }
 
     public function getParameter(string $parameterName): string
